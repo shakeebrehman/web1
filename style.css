@@ -1,0 +1,65 @@
+body {
+    background-color: aqua;
+
+}
+
+#text1 {
+    text-align: right;
+    font-size: medium;
+    color: brown;
+}
+
+#mainpic{
+    background-image: url(images/pic1.jpg);
+    width: 940px;
+    height:300px;
+    background-repeat: no-repeat;
+    left: 500px;
+    top: 150px;
+
+}
+
+#container{
+    display: block;
+    position: relative;
+    width :940px;
+    margin: 0 auto 0 auto;
+}
+
+#menu{
+    width: 600px;
+    height: 300px;
+    float: left;
+    clear: both;
+}
+
+#menu a{
+    float: left;
+	width: 150px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	
+}
+
+
+#menu ul {
+	list-style: none;
+	padding: 0px;
+	margin-left:auto;
+	width:900px;
+}
+
+#menu li {
+	list-style: none;
+	padding: 0px;	
+	display: inline; 
+	
+}
+
+#table td,tr{
+    border: 1px solid black;
+}
